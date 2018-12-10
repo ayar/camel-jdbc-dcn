@@ -3,7 +3,6 @@ package com.ayar.tools.jpa.adapter.impl;
 import com.ayar.tools.jpa.adapter.JDBCAdapter;
 import com.ayar.tools.jpa.dcn.NotificationRegistration;
 import com.impossibl.postgres.jdbc.PGDataSource;
-import oracle.jdbc.datasource.OracleDataSource;
 import org.apache.commons.lang3.Validate;
 
 import javax.sql.DataSource;

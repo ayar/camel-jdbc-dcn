@@ -8,6 +8,7 @@
 	<modules>
 		<module>ayar-jpa-tool</module>
 		<module>ayar-jpa-tool-starter</module>
+		<module>ayar-jpa-sample</module>
 	</modules>
 	
 	
@@ -19,7 +20,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<docker.image.prefix>ayar</docker.image.prefix>
-		<spring.boot.version>1.5.9.RELEASE</spring.boot.version>
+		<spring.boot.version>2.0.7.RELEASE</spring.boot.version>
+		<camel.version>2.22.1</camel.version>
 	</properties>
 	<dependencyManagement>
      <dependencies>

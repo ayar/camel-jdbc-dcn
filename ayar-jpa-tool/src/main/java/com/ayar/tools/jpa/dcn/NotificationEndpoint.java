@@ -71,7 +71,7 @@ public class NotificationEndpoint extends DefaultEndpoint {
 	@Override
 	public Producer createProducer() throws Exception {
 		throw new UnsupportedOperationException(
-				"Producer is not supported by Oracle Notification component");
+				"Producer is not supported by  Notification component");
 	}
 	@Override
 	public boolean isSingleton() {
