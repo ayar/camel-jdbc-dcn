@@ -1,0 +1,11 @@
+version: '2'
+services:
+    backbone-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/backbone/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=backbone
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
